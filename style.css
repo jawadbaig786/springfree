@@ -1,0 +1,220 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.desktop-container {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* nav bar   image logo */
+.logo img {
+  width: 10rem;
+}
+.navigation-bar .navbar .nav-list .navbar-nav li a {
+  color: rgb(0, 0, 0);
+}
+
+.navigation-bar .navbar .nav-list .navbar-nav li a:hover {
+  color: #0088ce;
+}
+/*  heading Section */
+/*  image */
+.heading-bar {
+  background-color: rgb(220, 76, 158);
+}
+.heading-bar img {
+  width: 12rem;
+}
+.heading-btn a {
+  background-color: #fff;
+  border-radius: 2px;
+  font-size: 0.5rem;
+}
+
+.heading-btn a:hover {
+  background-color: white;
+}
+/*  hero bg image section */
+.hero-img {
+  max-width: 100%;
+  background-image: url(Sunsational_Desktop_Hero-BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4.2rem 0rem;
+}
+/*  inner hero section */
+.hero-first {
+  width: 60%;
+}
+.hero-sec {
+  padding-top: 20%;
+  width: 33rem;
+}
+.hero-btn {
+  background-color: rgb(194, 60, 120);
+  color: #fff;
+  border-radius: 2px;
+  font-size: 0.4rem;
+  /* padding: 10px 20px; */
+}
+.hero-btn:hover {
+  background-color: rgb(194, 60, 120);
+}
+/* .hero-btn a:hover {
+  color: #fff;
+} */
+/*  slider for css */
+* Swiper_CSS */ body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 70vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+/*  slider button */
+.slider-btn a {
+  background-color: #d63384;
+  color: white;
+  border-radius: 3px;
+  width: 10rem;
+}
+.slider-btn a:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+/* bottom box btn */
+.box-contanier {
+  border: 2px solid rgba(255, 194, 204, 0.5);
+}
+
+.box-btn a {
+  background-color: #d63384;
+  color: white;
+  border-radius: 3px;
+  width: 10rem;
+}
+.box-btn a:hover {
+  background-color: #d63384;
+  color: white;
+}
+/* bottom heading */
+.box-heading h2 {
+  color: #d63384;
+}
+/*  box image */
+.box-image img {
+  max-width: 100%;
+}
+/*  for mobile   heading bottom*/
+.mobile-heading h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+/*  bottom inner image arrow icon */
+section .icon-image img {
+  width: 3rem;
+}
+section .icon-sec-image img {
+  width: 3rem;
+}
+section .row h3 {
+  color: #0088ce;
+}
+section .image-1 img {
+  max-width: 80%;
+}
+/*  footer section */
+section .sunsational-image img {
+  max-width: 80%;
+}
+section .footer-image img {
+  max-width: 100%;
+}
+section .row h4 {
+  color: #0088ce;
+}
+/* footer para */
+section .row .footer-para {
+  max-width: 75%;
+}
+
+/*  media queries */
+/*  for tab */
+@media (max-width: 780px) {
+  /*  box image bottom  */
+  section .box-image img {
+    max-width: 100%;
+  }
+  section .image-1 img {
+    max-width: 100%;
+  }
+  /*  footer para */
+  section .row .footer-para {
+    max-width: 100%;
+  }
+  /* ? HEADING */
+
+  section .row h4 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    background-image: url(Sunsational_Mobile_Hero-BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  /*  box image bottom  */
+  section .box-image img {
+    max-width: 100%;
+  }
+
+  section .text-para {
+    text-align: justify;
+  }
+  /* section .row h3 {
+    font-size: 15px;
+  } */
+  /*   section bottom side */
+  section .image-1 img {
+    max-width: 100%;
+  }
+  /*  image crop */
+  section .sunsational-image img {
+    max-width: 100%;
+    /* margin-left: 0; */
+  }
+  /* ? HEADING */
+
+  section .row h4 {
+    font-size: 2rem;
+  }
+  /*  footer para */
+  section .row .footer-para {
+    max-width: 100%;
+  }
+}
